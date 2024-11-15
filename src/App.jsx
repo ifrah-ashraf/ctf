@@ -23,7 +23,7 @@ function App() {
         <div className="bg-gray-700 p-4 rounded-lg mb-4">
           <h3 className="text-xl text-indigo-400 font-semibold">Hint</h3>
           <span style={{ display: 'none' }}>{encodedFlag}</span>
-          {/* Conditionally render hint content */}
+        
           {isClick ? (
             <div>
               <p className="text-gray-300 mt-2">
@@ -44,8 +44,6 @@ function App() {
       <footer className="text-center text-gray-500">
         <p className="text-sm mt-4">&copy; 2024 CTF Challenge. All rights reserved.</p>
       </footer>
-
-      {/* Hidden Flag */}
       
     </div>
   );
