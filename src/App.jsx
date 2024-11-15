@@ -22,7 +22,7 @@ function App() {
 
         <div className="bg-gray-700 p-4 rounded-lg mb-4">
           <h3 className="text-xl text-indigo-400 font-semibold">Hint</h3>
-
+          <span style={{ display: 'none' }}>{encodedFlag}</span>
           {/* Conditionally render hint content */}
           {isClick ? (
             <div>
@@ -46,7 +46,7 @@ function App() {
       </footer>
 
       {/* Hidden Flag */}
-      <span style={{ display: 'none' }}>{encodedFlag}</span>
+      
     </div>
   );
 }
